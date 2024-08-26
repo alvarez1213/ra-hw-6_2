@@ -1,0 +1,36 @@
+.note {
+    flex-grow: 0;
+
+    border: solid black 1px;
+    text-align: center;
+
+    position: relative;
+
+    height: 150px;
+    width: 45%;
+}
+
+.note:nth-child(odd) {
+    margin-right: 9%;
+}
+
+.note:nth-child(1n+3) {
+    margin-top: 50px;
+}
+
+.note__delete-sign {
+    background-color: #fff;
+    border: solid black 1px;
+    border-radius: 100%;
+    cursor: pointer;
+
+    padding: 6px;
+
+    position: absolute;
+    right: -17px;
+    top: -18px;
+}
+
+.note__text {
+    padding: 25px 35px;
+}

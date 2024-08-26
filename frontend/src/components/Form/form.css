@@ -1,0 +1,38 @@
+.form {
+    margin-top: 40px;
+    width: 350px;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    position: relative;
+}
+
+#note {
+    resize: none;
+
+    font-size: 16px;
+
+    height: 120px;
+    width: 350px;
+}
+
+.form__btn {
+    background-color: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    padding: 0px 10px;
+
+    position: absolute;
+    bottom: 9px;
+    right: 0;
+}
+
+.form__btn-text {
+    font-size: 30px;
+}
